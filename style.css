@@ -9,26 +9,89 @@ background-color: black;
 }
 
 header {
-border-bottom: 5px solid white;
+/* border-bottom: 5px solid white; */
+padding: 30px;
+
 }
 
 h1 {
 color: white;
 font-size: 200px;
 font-family: Arial, Helvetica, sans-serif;
+padding: 30px;
 
 }
 h2 {
+border-top: 2px solid white; 
+border-bottom: 2px solid white;
 color: white;
 font-size: 30px;
 font-family: Arial, Helvetica, sans-serif;
-border-top: 5px solid white; 
-border-bottom: 5px solid white;  
+padding: 30px;  
 }
 
-h3 {
+/* h3 {
 color: white;
 font-size: 30px;
 font-family: Arial, Helvetica, sans-serif;
+margin-left: 30px;
+margin-top: 30px;
+display: inline;
 
+}
+h4{
+color:white;
+font-size: 30px;
+margin-left: 30px;
+margin-top: 30px;
+font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* h3:first-of-type {
+
+margin-left: 101px;
+
+} */
+
+/* .second-sentence {
+margin-left: 128px;
+margin-top: 50px;
+} */
+
+.grid-container-paragraph {
+color: white;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+gap: 10px 60px;
+padding: 30px;
+}
+.grid-container-h{
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px ;
+padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+}
+
+.grid1 {
+border-top: 2px solid white;
+padding: 30px;   
+}
+
+.grid2 {
+border-top: 2px solid white;
+padding: 30px;  
+}
+
+.grid3 {
+border-top: 2px solid white;
+padding: 30px;  
+}
+
+.grid4 {
+border-top: 2px solid white; 
+padding: 30px; 
 }
