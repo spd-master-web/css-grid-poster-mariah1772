@@ -21,6 +21,7 @@ font-family: Arial, Helvetica, sans-serif;
 padding: 30px;
 
 }
+
 h2 {
 border-top: 2px solid white; 
 border-bottom: 2px solid white;
@@ -30,41 +31,15 @@ font-family: Arial, Helvetica, sans-serif;
 padding: 30px;  
 }
 
-/* h3 {
-color: white;
-font-size: 30px;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 30px;
-margin-top: 30px;
-display: inline;
-
-}
-h4{
-color:white;
-font-size: 30px;
-margin-left: 30px;
-margin-top: 30px;
-font-family: Arial, Helvetica, sans-serif;
-} */
-
-/* h3:first-of-type {
-
-margin-left: 101px;
-
-} */
-
-/* .second-sentence {
-margin-left: 128px;
-margin-top: 50px;
-} */
-
 .grid-container-paragraph {
 color: white;
 display: grid;
 grid-template-columns:1fr 1fr 1fr 1fr;
-gap: 10px 60px;
+gap: 25px;
 padding: 30px;
+
 }
+
 .grid-container-h{
 color: white;
 display: grid;
@@ -72,8 +47,7 @@ grid-template-columns: 1fr 1fr;
 gap: 10px ;
 padding: 30px;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-
+font-size: 30px¢’;
 }
 
 .grid1 {
@@ -95,3 +69,45 @@ padding: 30px;
 border-top: 2px solid white; 
 padding: 30px; 
 }
+
+.title1 {
+color: white;
+font-size: 600px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content:flex-start;
+font-weight: bolder;
+margin-bottom:1em;
+line-height: 10px;
+margin-top: 700px;
+}
+
+.title2 {
+color: white;
+font-size: 600px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: -20px;
+display: flex;
+justify-content: center;
+line-height: 5px;
+font-weight: bolder;
+}
+
+.title3 {
+color: white;
+font-size: 600px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 80px;
+display: flex;
+justify-content: end;
+font-weight: bolder;
+line-height: 5px;
+
+}
+.container {
+    position: relative;
+    top: -489px;
+    left: 20px;
+   
+    
+  }
